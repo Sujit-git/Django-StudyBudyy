@@ -1,0 +1,8 @@
+#activate environment
+source env/bin/activate
+
+#run server
+python manage.py runserver
+
+#create app
+python manage.py startapp base
